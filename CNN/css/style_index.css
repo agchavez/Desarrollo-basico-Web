@@ -1,0 +1,34 @@
+.form-inline{
+    margin-left: auto
+}
+.starter-template {
+    padding: 3rem 1.5rem;
+  }
+.img{
+    width: 57px;
+    height: 56px;
+    /* margin-left: 10px; */
+    margin-right: 4px;
+}
+.flex-shrink-0{
+    margin-top: 20px;
+}
+
+.encabezado{
+    height: 200px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding:10px;
+}
+.contenedor{
+    background-color: rgb(5, 5, 5);
+    border-radius: 5px; 
+    box-shadow: 5px;
+    color:gray;
+    margin-left: 2px;
+    
+}
+.spamm{
+    background-color: rgba(255, 0, 0, 0.63);
+    border-radius: 3px;
+}

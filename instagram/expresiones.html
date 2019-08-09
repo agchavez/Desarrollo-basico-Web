@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var cadena = "Hola como estas esta es una de las pruebas para aprender expresiones regulares";
+        var er1 = new RegExp("expre");
+        var er1 = new RegExp("alumn[oa]");//va buscar o aceptar tanto alumno como alumna
+        var res = er1.test(cadena); 
+        document.write("-->"+res);  
+        /* META CARATERES:
+        . (punto) --> acepta cualquier csa despues del punto 
+        [ao] --> es un listado de caracteres validos en es e lugar del patron.
+        */    
+        
+        
+        
+    
+    </script>
+</body>
+</html>
