@@ -1,0 +1,59 @@
+.nav{
+    background-color: rgb(10, 175, 167);
+    padding-bottom: 20px;
+    padding-left: 250px;
+    
+}
+.logo{
+    width: 20px;
+}
+.from-login{
+    border: rgb(10, 175, 167) 1px solid;
+    width: 375px;
+    margin: auto;
+    margin-top: 50px;
+}
+h2{
+    font-size: 20px;
+}
+.from-item{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.form-control{
+    margin-bottom: 10px;
+}
+.form-control:focus{
+    border-color:#ced4da ;
+    box-shadow: none;
+}
+.input-checkbox{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.btn{
+    width: 100%;
+    background-color: rgb(10, 175, 167);
+}
+
+.frogot-password{
+    margin-top: 10px;
+    text-align: center;
+}
+a{
+    color:black ;
+}
+a:hover{
+    color: rgb(10, 175, 167)
+}
+footer{
+    margin-top: 90px;
+    padding-bottom: 25px;
+    font-size: 16px;
+    background-color: rgba(204, 204, 206, 0.301);
+    padding-top: 39px;
+}
+
+

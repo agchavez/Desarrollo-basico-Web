@@ -1,0 +1,77 @@
+body{
+    background-color: #ffffff54;
+}
+.nav{
+    background-color: rgb(10, 175, 167);
+    padding-bottom: 20px;
+}
+.text-prin{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+}
+.contenido{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: rgb(10, 175, 167) 1px solid;
+}
+.form-control:focus {
+    color: #495057; 
+    background-color: #fff;
+    border-color: #000000;
+    outline: 0; 
+    box-shadow: none;
+    border-color:rgb(10, 175, 167, 0.56);
+}
+.custom-select:focus {
+    border-color: #000000;
+    outline: 0;
+    box-shadow: none;
+    border-color:rgb(10, 175, 167, 0.56); 
+}
+#descrip{
+    height: 100px;
+}
+.img{
+    width: 40px;
+    height: 40px;
+}
+.img:hover{
+    cursor: pointer;
+}
+.formphone{
+    width: 300px;
+}
+.formsocial{
+    width: 80%;
+}
+.btn{
+    background-color: rgb(10, 175, 167);
+}
+.btn:focus{
+    box-shadow: none !important;
+    background-color: rgb(10, 175, 167, 0.56) !important;
+    
+
+
+}
+.btn:hover{
+    background-color: rgb(10, 175, 167);
+
+}
+.custom-file-label::after{
+    content: "Cargar"!important;
+}
+.custom-file-input:focus{
+    color: #495057 !important; 
+    background-color: #fff !important;
+    border-color: #000000 !important;
+    outline: 0; 
+    box-shadow: none !important;
+    border-color:rgb(10, 175, 167, 0.56) !important;
+
+}
