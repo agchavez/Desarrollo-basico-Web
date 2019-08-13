@@ -5,13 +5,17 @@
     {campo:'descrip', valido:false},
     {campo:'redsocial0', valido:false},
     {campo:'address', valido:false},
-    {campo:'numero0', valido:false},
+    {campo:'phone0', valido:false},
+    {campo:'longitud', valido:false},
+    {campo:'latitud', valido:false},
+    {campo:'logo', valido:false},
     {campo:'banner', valido:false},
     {campo:'contry', valido:false},
-    {campo:'state', valido:false},
+    {campo:'password', valido:false},
+    {campo:'mision', valido:false},
+    {campo:'vision', valido:false},
     {campo:'city', valido:false}
   ];
-
   function registrarUsuario() {
     for(i = 0; i<campos.length; i++)
         campos[i].valido = comprobar(campos[i].campo);
@@ -48,9 +52,11 @@ function validarEmailEnLinea(email){
 function comprobar(id){
     let resultado = (document.getElementById(id).value=='')?false:true;
     marcarInput(id, resultado);
+   
     return resultado;
 }
 function marcarInput(id,valido){
+  console.log(valido + "-->"+id);
   if (valido){
       document.getElementById(`invalid-${id}`).innerHTML = "";
       document.getElementById(id).classList.remove('is-invalid');
@@ -79,6 +85,7 @@ function addsocial(n){
   document.getElementById(`addsocial${n}`).remove();
 
 }
-function probar(){
-  document.write($('#prueba').val());
+function insertar(value){
+  console.log(value);
+  document.getElementById('label-banner').innerHTML = value;
 }

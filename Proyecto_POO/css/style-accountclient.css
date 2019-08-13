@@ -54,10 +54,22 @@ padding-left: 0px;
 .custom-select:hover{
     cursor: pointer;
 }
+.correo-contrac{
+    display: flex;
+}
+#password  {
+    width: 90%;
+}
 
+.fa-eye{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.fa-eye:hover{
+    cursor: pointer;
+}
 .contenido{
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 20px;
     border: rgb(10, 175, 167) 1px solid;
 }
