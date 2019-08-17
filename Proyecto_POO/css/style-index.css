@@ -1,0 +1,129 @@
+.contsup-nav{
+    display: flex;
+    width: 100%;
+    background-color: rgb(10, 175, 167);
+    padding-bottom: 20px;
+
+}
+
+body{
+    background-color: #F2F2F2;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.imglgo{
+    margin-left: 100px;
+}
+
+.custom-select{
+    width: 130px;
+}
+.from-control{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.form-control:focus {
+    color: #495057; 
+    background-color: #fff;
+    border-color: #000000;
+    outline: 0; 
+    box-shadow: none;
+    border-color:rgb(10, 175, 167, 0.56);
+}
+.custom-select:focus {
+    border-color: #000000;
+    outline: 0;
+    box-shadow: none;
+    border-color:rgb(10, 175, 167, 0.56); 
+}
+.btn{
+    background-color: rgb(8, 114, 100);
+    border-color: rgb(10, 175, 167, 0.56); 
+    font-size: 17px;
+}
+.btn:hover{
+    background-color: rgb(8, 114, 100);
+    font-size: 18px;
+    border-color: rgb(10, 175, 167, 0.56);
+}
+.iconos{
+        font-size: 17px;
+    color: rgb(8, 114, 100);
+}
+.iconos:hover{
+    
+    font-size: 20px;
+    cursor: pointer !important;
+    text-decoration: none;
+}
+.cesta{
+    min-width: 60px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #e62e04;
+    color: #fff;
+    font-size: 12px;
+}
+.icono:hover{
+    cursor: pointer;
+    font-size: 17px;
+    color: rgb(8, 114, 100);
+    
+}
+.carousel{
+    height: 200px !important;
+   background-color: #7171752c;
+}
+.imagen{
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.imgprod{
+    width: 98%;
+    border-radius: 10%;
+}
+.imgnew:hover{
+    opacity: 0.7;
+}
+a{
+    color: rgb(8, 114, 100);
+}
+a:hover{
+    color: rgb(8, 114, 100);
+}
+h2{
+   display: none;
+}
+.img-circle{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+}
+.populares{
+    border-radius: 5px;
+}
+.product-pop{
+    background-color: white;
+}
+.product-pop:hover{
+    cursor: pointer;
+    width: 101%;
+}
+.newproduc{
+    cursor: pointer;
+}
+.continf-nav{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 86px;
+    text-align: center;
+}
