@@ -1,0 +1,142 @@
+.contsup-nav{
+    display: flex;
+    width: 100%;
+    background-color: rgb(10, 175, 167);
+    padding-bottom: 20px;
+
+}
+.iconos:hover{
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn-icon{
+    border: 0.5px solid rgb(8, 114, 100);
+}
+.btn-icon:hover{
+    cursor: pointer;
+}
+body{
+    background-color: #F2F2F2;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.iconosnav{
+    margin: auto 100px auto auto;
+   cursor: pointer;
+}
+.cantidadprod{
+    color: rgb(170, 169, 169);
+    font-size: 20px;
+}
+.cantidadprod:hover{
+    font-size: 22px;
+    cursor: pointer;
+}
+.stylecolor{
+    border: 0.5px solid red;
+}
+.imglgo{
+    margin: auto auto auto 100px;
+}
+.iconos{
+    font-size: 17px;
+    color: rgb(8, 114, 100);
+}
+hr{
+    margin-top: -5px;
+}
+.iconos:hover{
+    color:  rgb(8, 114, 100);
+    font-size: 20px;
+    cursor: pointer !important;
+    text-decoration: none;
+}
+.cesta{
+    min-width: 60px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #e62e04;
+    color: #fff;
+    font-size: 12px;
+}
+.icono:hover{
+    cursor: pointer;
+    font-size: 17px;
+    color: rgb(8, 114, 100);
+    
+}
+.opciones:hover{
+    cursor: pointer !important;
+    font-size: 18px;
+    
+}
+.seleccionado::after{
+    content: "";
+    position: absolute;
+    left: 45%;
+    top: 27px;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+    transition: width .4s;
+    display: inline-block;
+    border-bottom: 4px solid #000;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 70%;
+}
+.textimg{
+    margin-left: auto;
+    margin-right: auto;
+}
+.contenedor{
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+}
+
+.imgproduc{
+    width: 100%;
+    margin-left: auto;
+    margin-left: auto;
+}
+.redessociales{
+    margin-top: 100px;
+    margin-left: 96%;
+    font-size: 35px;
+}
+.fa-pinterest-square{
+    color: #E84430;
+}
+.fa-instagram{
+    display: inline-block;
+  text-align: center;
+  color: #fff;
+  vertical-align: middle;
+    background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  border-radius: 5px;
+  width: 100%;
+}
+.fa-facebook-square{
+    color: #39539A;
+}
+.fa-twitter-square{
+    color: #1CA6E9; 
+}
+
+.iconored:hover{
+    cursor: pointer;
+    font-size: 37px;
+}
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.imagenprod:hover{
+    cursor: pointer;
+}
