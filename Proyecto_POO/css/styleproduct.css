@@ -12,6 +12,13 @@
 .btn-icon{
     border: 0.5px solid rgb(8, 114, 100);
 }
+.logo:hover{
+    cursor: pointer;
+}
+.empredirec:hover{
+    cursor: pointer;
+    text-decoration: gray;
+}
 .btn-icon:hover{
     cursor: pointer;
 }

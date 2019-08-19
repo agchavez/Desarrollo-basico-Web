@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    width: 100%;
+    background-color: rgb(10, 175, 167);
+    padding-bottom: 20px;
+}
+.banner{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding:10px;
+}
+.elecciones{
+    border-right: 0.5px solid;
+}
+.eleccion:hover{
+    cursor: pointer;
+    font-size: 20px;
+    width: 50px;
+}
+#eleccion1{
+    color: #0AAFA7;
+    font-size: 20px;
+    width: 100%;
+    height: 10%;
+}

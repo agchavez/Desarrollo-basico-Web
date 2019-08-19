@@ -12,7 +12,7 @@
 <body>
         <nav class="nav nav-pills nav-fill">
             <div class="logo">
-                    <img src="img/logo.png" alt="Logo" width="160" height="60">
+                    <img src="img/logo.png" alt="Logo" width="160" height="60" onclick="location.href='index_promerca.html'">
             </div>
         </nav>
         <div class="container">
@@ -21,17 +21,21 @@
                 <p>Promerca ofrece dos tipos de usuarios tanto para <b>Empresas</b> como para <b>Cientes</b><br> selecione el tipo de usuario que desea crear</p>
             </div>
             <div>
-                <select class="custom-select">
+                <select id="usuario" class="custom-select">
                     <option selected>Tipo de usuario</option>
                     <option value="1">Cliente</option>
                     <option value="2">Empresas</option>
                 </select>  
             </div>
             <div>
-                    <button class="btn btn-primary btn-lg btn-block" type="submit">Continuar</button>
+                    <button class="btn btn-primary btn-lg btn-block" type="submit" onclick="account()">Continuar</button>
             </div>
         </div>
-
+                            
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/all.js"></script>
+        <script src="js/controladoraccount.js"></script>
     
 </body>
 </html>

@@ -10,6 +10,9 @@
 
     border: 0.5px solid rgb(8, 114, 100) !important;
 }
+.logo:hover{
+    cursor: pointer;
+}
 body{
     background-color: #F2F2F2;
     font-family: 'Open Sans', sans-serif;

@@ -3,6 +3,9 @@
     padding-bottom: 20px;
     padding-left: 250px;
 }
+.logo:hover{
+    cursor: pointer;
+}
 .textsup{
     margin-top: 20px;
 }
