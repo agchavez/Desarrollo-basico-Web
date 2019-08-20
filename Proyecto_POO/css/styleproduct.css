@@ -1,10 +1,11 @@
-.contsup-nav{
+.nav{
     display: flex;
     width: 100%;
     background-color: rgb(10, 175, 167);
     padding-bottom: 20px;
 
 }
+
 .iconos:hover{
     font-size: 20px;
     cursor: pointer;
@@ -104,16 +105,20 @@ hr{
     background-color: white;
     padding: 20px;
 }
-
+.btn-icon:hover{
+    background-color: rgb(15, 112, 99);
+    
+}
 .imgproduc{
     width: 100%;
     margin-left: auto;
     margin-left: auto;
 }
 .redessociales{
-    margin-top: 100px;
-    margin-left: 96%;
+    display: block;
     font-size: 35px;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 .fa-pinterest-square{
     color: #E84430;

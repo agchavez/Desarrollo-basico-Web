@@ -76,22 +76,22 @@ padding-left: 0px;
     margin-top: 20px;
     border: rgb(10, 175, 167) 1px solid;
 }
-.btn{
+
+.btn-primary{
+
+    width: 40%;
     background-color: rgb(10, 175, 167);
+    border-color: rgb(10, 175, 167);
 }
-.btn:focus{
-    box-shadow: none !important;
-    background-color: rgb(10, 175, 167, 0.56) !important;
-    
-
-
+.btn-primary:hover{
+    background-color: rgb(10, 133, 126);
+    border-color: white;
 }
-.btn:hover{
-    background-color: rgb(10, 175, 167);
+.btn-primary:active{
 
+    border-color: white !important;
+    background-color: rgb(10, 175, 167) !important;
 }
-
-
 .img-cvv{
     width:20px;
     height: 20px;

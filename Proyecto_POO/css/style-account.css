@@ -27,10 +27,11 @@
     border-color: rgb(10, 175, 167);
 }
 .btn-primary:hover{
-    background-color: rgb(10, 175, 167);
+    background-color: rgb(10, 133, 126);
     border-color: white;
 }
-.btn-primary:focus{
-    border-color: white;
-    background-color: rgb(10, 175, 167);
+.btn-primary:active{
+
+    border-color: white !important;
+    background-color: rgb(10, 175, 167) !important;
 }
