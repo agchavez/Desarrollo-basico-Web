@@ -18,20 +18,20 @@
     box-shadow: 0 0 0 0.2rem white;
     border-color: rgb(10, 175, 167);
 
-}
-.btn-primary{
-    margin-top: 40px;
-    margin-left: 35%;
-    width: 30%;
-    background-color: rgb(10, 175, 167);
-    border-color: rgb(10, 175, 167);
-}
-.btn-primary:hover{
-    background-color: rgb(10, 133, 126);
-    border-color: white;
-}
-.btn-primary:active{
+    }
+    .btn-primary{
+        margin-top: 40px;
+        margin-left: 35%;
+        width: 30%;
+        background-color: rgb(10, 175, 167);
+        border-color: rgb(10, 175, 167);
+    }
+    .btn-primary:hover{
+        background-color: rgb(10, 133, 126);
+        border-color: white;
+    }
+    .btn-primary:active{
 
-    border-color: white !important;
-    background-color: rgb(10, 175, 167) !important;
-}
+        border-color: white !important;
+        background-color: rgb(10, 175, 167) !important;
+    }
