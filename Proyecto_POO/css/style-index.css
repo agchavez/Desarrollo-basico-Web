@@ -15,6 +15,7 @@
     background-color: rgb(15, 112, 99);
     
 }
+
 .logo:hover{
     cursor: pointer;
 }
@@ -134,7 +135,8 @@ h2{
 }
 .product-pop:hover{
     cursor: pointer;
-    width: 101%;
+    background-color: #dddcdc;
+    
 }
 .newproduc{
     cursor: pointer;
@@ -144,4 +146,9 @@ h2{
     margin-right: auto;
     margin-top: 86px;
     text-align: center;
+}
+@media (min-width: 1300px){
+.container {
+    max-width: 1340px;
+}
 }
