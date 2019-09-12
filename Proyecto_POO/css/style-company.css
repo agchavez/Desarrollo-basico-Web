@@ -9,6 +9,12 @@ body{
     font-family: 'Open Sans', sans-serif;
 
 }
+.imglogo{
+    margin-left: 100px;
+}
+.logo:hover{
+    cursor: pointer;
+}
 .shadow-sm{
     background-color: white;
 }
@@ -54,7 +60,17 @@ hr{
     cursor: pointer;
     background-color: rgba(220, 220, 220, 0.329);
 }
-
+.seleccionado{
+    background-color: rgba(173, 170, 172, 0.329);
+    font-size: 17px;
+}
+.borde{
+    border: rgb(10, 175, 167) 1px solid;
+}
+.eliminar:hover{
+    color: rgb(10, 175, 167);
+    cursor: pointer;
+}
 #eleccion1{
     color: #0AAFA7;
     font-size: 20px;

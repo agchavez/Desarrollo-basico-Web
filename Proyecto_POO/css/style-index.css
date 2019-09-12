@@ -9,6 +9,9 @@
     font-size: 13px !important;
     border: 0.5px solid rgb(8, 114, 100) !important;
 }
+h3{
+    color: rgb(10, 175, 167);
+}
 .btn-icon:hover{
     background-color: rgb(15, 112, 99);
     
@@ -25,7 +28,9 @@ body{
 .imglgo{
     margin-left: 100px;
 }
-
+.imgbanner:hover{
+    cursor: pointer;
+}
 .custom-select{
     width: 130px;
 }

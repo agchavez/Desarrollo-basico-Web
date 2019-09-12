@@ -1,6 +1,36 @@
-function prueba(){
-    console.log("Si funciona");
-}
+(function(){
+    var html ='';
+    $('#principalimg').html(``);
+    for (let i = 0; i < 2; i++) {
+        html += `<div class="col-3" onclick="imagen(${direcimagen})">
+        <img class="w-100" src="${direcimagen}" alt="">
+    </div>` 
+    }
+    $('#secundariasimg').html(html);
+    $('#nombre').html(`<h3><b>${nombre}</b></h3><a class="ml-3" href="company_promerca.html">(${empresa})</a>`);
+    $('#descripcion').html(`${descripcion}`);
+    html = '';
+    for (let i = 0; i < 5; i++) {
+        if(calificacion<i)$('#valoracion').append(`<i class="fas fa-star"></i>`);
+        else $('#valoracion').append(`<i class="far fa-star"></i>`);
+    }
+    if(calificacion >=3) $('#valoracion').addClass('text-success')
+    else $('#valoracion').addClass('text-danger')
+
+    $('#valor').html(`L. ${precio}`);
+    if(pructossimilares){
+        for (let i = 0; i < array.length; i++) {
+            $('#similares').append(`<div class="col-lg-12 col-sm-4 col-4">
+            <div class="imagenoters">
+                <img style="width: 80%" src="${imgsimilar[i]}" alt="">
+            </div>
+            <p><b>${preciosimilar[i]}</b></p>
+        </div>`);
+        }
+    }
+    $('#compas').html(`${vendidos}`)
+})();
+
 function seleccionado(n){
     console.log('value'+n)
     switch (n){
@@ -92,7 +122,9 @@ function seleccionado(n){
                 $('#cometarios').removeClass("seleccionado");
     }
 }
-function addmodal(){
+function comentario(){
+    var estrellas = ``;
+
     $('#modals').html(` <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -100,7 +132,7 @@ function addmodal(){
              <div>
           <h5 class="modal-title" id="exampleModalLabel">Agregar Comentario</h5>
          
-          <p>Name User</p>
+          <p>${nombreusuario}</p>
           </div>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
@@ -109,33 +141,80 @@ function addmodal(){
         <div class="modal-body">
           <div class="d-flex mb-3">
               <div>
-                  <img src="img/fondo.jpg" class="imgusermodal" alt="">
+                  <img src="${direeconimg}" class="imgusermodal" alt="">
               </div>
               <div class="namemodal mt-3">
-              <p><b>Articulo1</b></p>
+              <p><b>${nombre}</b></p>
               </div>
 
               <div id="valoracion" style="margin-left: 150px" class=" mb-3 mt-3">
                     <p>Valore el Producto</p>
-                    <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i> 
-                      <i class="far fa-star"></i>
+                    ${estrellas}
   
                 </div>
           </div>
           <hr>
           <div id="newcomen">
-              <textarea name="" id="" cols="55" rows="4">Agregar comentario</textarea>
+              <textarea name="" id="" cols="45" rows="4">Agregar comentario</textarea>
           </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
-          <button type="button" class="btn btn-primary">Agregar comentario</button>
+          <button type="button" class="btn btn-primary" onclick="addcomentario()">Agregar comentario</button>
         </div>
       </div>
     </div>
   </div>`)
     $('#exampleModal').modal('show');
+}
+
+function imagen(value){
+    $('#principalimg').html(`<img style="width: 90%" src="${value}" alt="">`)
+}
+
+function modal(){
+    var html;
+    html += `<div class="carousel-item active">
+    <img class="d-block imgproducmodal" src="img/fondo.jpg" alt="First slide">
+    </div>`;
+        $('#modals').html(`<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h5 class="modal-title" id="exampleModalLabel">${nombre}</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                        ${html}
+                        </div>
+                        <a class="carousel-control-prev colorblack" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next colorblack" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+        </div>
+      </div>
+    </div>
+  </div>`);
+  $('#exampleModal').modal('show');
+}
+
+function addcomentario(){
+
 }
