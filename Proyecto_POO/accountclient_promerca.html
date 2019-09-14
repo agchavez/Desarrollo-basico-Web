@@ -41,14 +41,14 @@
                                 <div class="row">
                                   <div class="col-md-6 mb-3">
                                     <label for="firstName">Nombre</label>
-                                    <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
-                                    <div class="invalid-name">
+                                    <input type="text" class="form-control" id="firstName" placeholder=""    required="">
+                                    <div class="invalid" id="invalid-firstName">
                                     </div>
                                   </div>
                                   <div class="col-md-6 mb-3">
                                     <label for="lastName">Apellido</label>
-                                    <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
-                                    <div class="invalid invalid-lastname">
+                                    <input type="text" class="form-control" id="lastName" placeholder=""   required="">
+                                    <div class="invalid" id="invalid-lastName">
                                     </div>
                                   </div>
                                 </div>
@@ -58,7 +58,7 @@
                                 <div class="mb-3">
                                   <label for="email">Correo electronico</label>
                                   <input type="email" class="form-control" id="email" placeholder="you@example.com">
-                                  <div class="invalid "id="invalid-email">
+                                  <div class="invalid" id="invalid-email">
                                     
                                   </div>
                                 </div>
@@ -67,8 +67,8 @@
                                 <div class="mb-3">
                                   <label for="email">Contraseña</label>
                                   <div style="display: flex">
-                                  <input type="password" class="form-control" id="password" ><span><i class="fas fa-eye"></i></span></div>
-                                  <div class="invalid "id="invalid-password">
+                                  <input type="password" class="form-control" id="password"><span id="mopasword" onclick="pasword(false)"><i class="fas fa-eye"></i></span></div>
+                                  <div class="invalid" id="invalid-password">
                                   </div>
                                 </div>
                                   </div>
@@ -78,7 +78,7 @@
                                 <div class="mb-3">
                                   <label for="address">Direccion</label>
                                   <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
-                                  <div class="invalid "id="invalid-address">
+                                  <div class="invalid" id="invalid-address">
                                   </div>
                                 </div>
                         
@@ -88,29 +88,29 @@
                                 </div>
                         
                                 <div class="row">
-                                  <div class="col-md-5 mb-3">
+                                  <div class="col-md-5 col-6 mb-3">
                                     <label for="country">Pais</label>
-                                    <select class="custom-select d-block w-100" id="country" required="">
+                                    <select class="custom-select d-block w-100" id="contry" required="">
                                       <option value="">Seleccionar</option>
                                     </select>
-                                    <div class="invalid "id="invalid-country">
+                                    <div class="invalid" id="invalid-contry">
                                       
                                     </div>
                                   </div>
-                                  <div class="col-md-4 mb-3">
+                                  <div class="col-md-4 col-6 mb-3">
                                     <label for="state">Ciudad/Estado</label>
-                                    <select class="custom-select d-block w-100" id="state" required="">
+                                    <select class="custom-select d-block w-100" id="city" required="">
                                         <option value="">Seleccionar</option>
                                       
                                       </select>
-                                    <div class="invalid "id="invalid-city">
+                                    <div class="invalid" id="invalid-city">
                                      
                                     </div>
                                   </div>
-                                  <div class="col-md-3 mb-3">
+                                  <div class="col-md-3 col-6 mb-3">
                                     <label for="zip">Codigo postal</label>
-                                    <input type="text" class="form-control" id="code-postal" placeholder="" required="">
-                                    <div class="invalid "id="invalid-home">
+                                    <input type="text" class="form-control" id="codepostal" placeholder="" required="">
+                                    <div class="invalid" id="invalid-codepostal">
                                      
                                     </div>
                                   </div>
@@ -124,9 +124,9 @@
                                       <select class="custom-select mr-3" id="region-number" required="">
                                           <option value="+504">+504</option>
                                         </select>
-                                      <input type="text" class="form-control" id="number-phone" placeholder="" required="">
-                                      </div class="invalid" id="invalid-number">
-                                      <div>
+                                      <input type="text" class="form-control" id="number" placeholder="" required="">
+                                      </div >
+                                      <div class="invalid" id="invalid-number">
                                       </div>
                                     </div>
                                   </div>
@@ -134,7 +134,7 @@
                                 </div>
                                 <div class="text-center">
                                     <button class="btn btn-primary my-2 my-sm-0 mr-3" type="submit" onclick="location.href='account_promerca.html'">Regresar</button>
-                                    <button class="btn btn-primary my-2 my-sm-0" type="submit">Crear cuenta</button>
+                                    <button class="btn btn-primary my-2 my-sm-0" type="submit" onclick="crearcuenta()">Crear cuenta</button>
                                   </div>
                                 </div >
                               </div>
@@ -161,14 +161,14 @@
                                   <label for="" class="mt-3">Fecha de vencimiento</label>
                                   <div class="row">
                                     <div class="col-5">
-                                    <select class="custom-select select-card" name="" id="">
-                                      <option value="0">Mes</option>
+                                    <select class="custom-select select-card" name="" id="meses">
+                                      <option value="">Mes</option>
 
                                     </select>
                                   </div>
                                     <div class="col-5">
-                                    <select class="custom-select select-card" name="" id="">
-                                        <option value="0">Año</option>
+                                    <select class="custom-select select-card" name="" id="anios">
+                                        <option value="">Año</option>
                                       </select>
                                   </div>
                                 </div>
@@ -192,5 +192,6 @@
                       <script src="js/popper.min.js"></script>
                       <script src="js/bootstrap.min.js"></script>
                       <script src="js/all.js"></script>
+                      <script src="js/controladorclient.js"></script>
 </body>
 </html>

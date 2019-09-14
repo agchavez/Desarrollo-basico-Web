@@ -64,19 +64,23 @@ padding-left: 0px;
     width: 90%;
 }
 
-.fa-eye{
+.icono{
     margin-top: 5px;
     margin-left: 5px;
     font-size: 20px;
 }
-.fa-eye:hover{
+.icono:hover{
     cursor: pointer;
+    color: rgb(10, 175, 167);
 }
 .contenido{
     margin-top: 20px;
     border: rgb(10, 175, 167) 1px solid;
 }
-
+.invalid{
+    color: red;
+    font-size: 10px;
+}
 .btn-primary{
 
     width: 40%;

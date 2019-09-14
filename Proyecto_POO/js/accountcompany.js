@@ -22,9 +22,7 @@
 
     if (document.getElementById('email').value != ''){
         let validar = validarEmailEnLinea(document.getElementById('email').value);
-        if (!validar)
-        document.getElementById('error-email').innerHTML = "Correo Inválido";
-        return;
+        if (!validar)return;
     }
     for (let i=0;i<campos.length;i++)
         if (!campos[i].valido) return;
@@ -44,25 +42,24 @@ function validarEmailEnLinea(email){
     console.log(email);
     let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     let resultado =  re.test(email);
-    marcarInput('email',resultado);
-    
+    marcarInput('email',resultado,"correo invalido");
     return resultado;
 }
 
 function comprobar(id){
     let resultado = (document.getElementById(id).value=='')?false:true;
-    marcarInput(id, resultado);
+    marcarInput(id, resultado,"campo obligatorio");
    
     return resultado;
 }
-function marcarInput(id,valido){
+function marcarInput(id,valido,comentario){
   console.log(valido + "-->"+id);
   if (valido){
       document.getElementById(`invalid-${id}`).innerHTML = "";
       document.getElementById(id).classList.remove('is-invalid');
       document.getElementById(id).classList.add('is-valid');
   } else{
-      document.getElementById(`invalid-${id}`).innerHTML = "Campo obligatorio";
+      document.getElementById(`invalid-${id}`).innerHTML = `${comentario}`;
       document.getElementById(id).classList.remove('is-valid');
       document.getElementById(id).classList.add('is-invalid');        
   }
