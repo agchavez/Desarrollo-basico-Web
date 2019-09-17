@@ -47,7 +47,14 @@ body{
 .eleccion{
     font-size: 15px;
     height: 40px;
+    margin-left: auto;
     
+}
+.agregarpro{
+    width: 40% !important;
+}
+.ml-auto{
+    margin-left: auto;
 }
 h3{
     color: rgb(10, 175, 167);

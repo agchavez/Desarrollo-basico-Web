@@ -9,6 +9,7 @@ var campos = [
     {campo:'codepostal', valido:false},
     {campo:'contry', valido:false},
     {campo:'password', valido:false},
+    {campo:'genero', valido:false},
     {campo:'city', valido:false}
   ];
 var meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiempre','Octubre','Nombiembre','Diciembre'];
@@ -18,8 +19,7 @@ for (let i = 0; i < meses.length; i++)
 for (let i = 2019; i < 2030; i++) 
     $('#anios').append(`<option value="${i}">${i}</option>`)
 
-for (let i = 0; i < array.length; i++) {
-}   
+
 
 $('#mopasword').click();
 console.log('entro');

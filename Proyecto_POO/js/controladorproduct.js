@@ -173,13 +173,14 @@ function imagen(value){
 }
 
 function modal(){
+  console.log('entro')
     var html;
     html += `<div class="carousel-item active">
     <img class="d-block imgproducmodal" src="img/fondo.jpg" alt="First slide">
     </div>`;
-        $('#modals').html(`<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
+        $('#modals').html(`<div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+       <div class="modal-content">
         <div class="modal-header text-center">
           <h5 class="modal-title" id="exampleModalLabel">${nombre}</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
