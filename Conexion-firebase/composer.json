@@ -1,0 +1,11 @@
+{
+    "name": "gabriel/conexion",
+    "description": "Conexion firebase con php",
+    "authors": [
+        {
+            "name": "gabriel",
+            "email": "agchavez@unah.hn"
+        }
+    ],
+    "require": {}
+}

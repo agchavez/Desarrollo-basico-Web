@@ -1,0 +1,11 @@
+{
+    "name": "gabriel/prueba",
+    "description": "prueba",
+    "authors": [
+        {
+            "name": "angel",
+            "email": "agchavez@unah.hn"
+        }
+    ],
+    "require": {}
+}
