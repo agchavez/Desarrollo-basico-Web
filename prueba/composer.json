@@ -1,0 +1,13 @@
+{
+    "name": "gabriel/prueba",
+    "description": "Prueba de nuevo",
+    "authors": [
+        {
+            "name": "Gabriel",
+            "email": "agchavez@unah.hn"
+        }
+    ],
+    "require": {
+        "kreait/firebase-php": "^4.32"
+    }
+}

@@ -1,0 +1,162 @@
+nav{
+    display: flex;
+    width: 100%;
+    background-color: rgb(10, 175, 167);
+    padding-bottom: 20px;
+}
+body{
+    background-color: #F2F2F2;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.imglogo{
+    margin-left: 100px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.shadow-sm{
+    background-color: white;
+}
+.container{
+    margin-top: -40px;
+}
+.banner{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding:10px;
+}
+.logoempresa{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.editar:hover{
+    cursor: pointer;
+}
+.editar{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: auto;
+}
+.eleccion{
+    font-size: 15px;
+    height: 40px;
+    margin-left: auto;
+    
+}
+.agregarpro{
+    width: 40% !important;
+}
+.ml-auto{
+    margin-left: auto;
+}
+h3{
+    color: rgb(10, 175, 167);
+}
+hr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.eleccion:hover{
+    cursor: pointer;
+    color: rgb(10, 175, 167);
+
+}
+.addproducto{
+    padding: 5rem !important;
+}
+.custom-file{
+    width:95% !important;
+}
+.imgadd{
+    width: 40px;
+    height: 40px;
+    margin-top: 25px
+}
+.imgadd:hover{
+    cursor: pointer;
+}
+.seleccionado{
+    color: rgb(10, 175, 167);
+    font-size: 17px;
+}
+.borde{
+    border: rgb(10, 175, 167) 1px solid;
+}
+.eliminar:hover{
+    color: rgb(10, 175, 167);
+    cursor: pointer;
+}
+#eleccion1{
+    color: #0AAFA7;
+    font-size: 20px;
+    width: 100%;
+    height: 10%;
+}
+.fa-pinterest-square{
+    color: #E84430;
+}
+.fa-instagram{
+    display: inline-block;
+  text-align: center;
+  color: #fff;
+  vertical-align: middle;
+    background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  border-radius: 5px;
+  width: 100%;
+}
+.fa-facebook-square{
+    color: #39539A;
+}
+.fa-twitter-square{
+    color: #1CA6E9; 
+}
+.iconored:hover{
+    cursor: pointer;
+}
+.redessociales{
+    display: block;
+    font-size: 35px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.boton{
+    border: rgb(10, 175, 167) 1px solid;
+    width: 100%;
+    
+    background-color: rgb(10, 175, 167);
+}
+.botonesadd{
+    width: 305px;
+    margin-left: auto;
+}
+.botonproducto{
+    border: rgb(10, 175, 167) 1px solid;
+    width: 150px;
+    background-color: rgb(10, 175, 167);
+}
+.botonproducto:hover{
+    background-color: rgba(10, 175, 167, 0.76);
+    border: rgb(10, 175, 167) 1px solid;
+}
+.boton:hover {
+    background-color: rgba(10, 175, 167, 0.76);
+    border: rgb(10, 175, 167) 1px solid;
+}
+.from-btn{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.border{
+    border: rgba(128, 128, 128, 0.308) 0.5px solid;
+    height: 70%;
+}

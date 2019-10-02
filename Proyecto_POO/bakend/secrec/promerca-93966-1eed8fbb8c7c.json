@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "promerca-93966",
+  "private_key_id": "1eed8fbb8c7cbdfca054d94982a1d5afed59a21c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCJzhkem3IKgAHg\nO1VCqFwdwCqwwO7d7+tCtOtzKnR9XikxaBMRr+IXNZFk7OjauY3/1jUCEBrz7u+C\nDhk6BPz3SrEqtvj9k/cOtSNouyVypN7C6RB4zAFcpqHMrF0k64ijyhE1PWfTTbM4\nAl7CjFSKsQjozYgRsleN5iF2ywQZQM3mlvzW6R5EgEH+VdbL4fIicuTgwSXL+LeD\nb9oesQCAMZr/uHo2EFj8+3gG+iy3g1+cmGIbnsGHSIBoUKf0LSDQhMgp6Ze8PurE\nvDVI+939TvaznN/In3tWAxk6loXbA96Frx3ouYxcN5/gXztY2ecEV7Wga+pqwDks\nDasKCI0TAgMBAAECggEAQ6X1Ft1gQl9MjHMUC8DyV3h6fIJ5wGGCsCB4ZPS2csTC\nnApnMguRhas6UL0sIhNs7eaN5xFY6d6lnManA6BnPk5gYoOn/3OfmIy7cTJN09Wz\ntSMMfwBGuuDiFMOYhgNJ9H3BrM0UJtrB3ADt27tf1SXLJd2fqnBOIs6SJurKfEpn\nUlgah7tN5QaSe765nunH7mj8Jk1RW5LLuRbLhfwkaP0EghXi9CAZWXjMjA6rC4fG\ns6f3K7aAVOFz43u8+v7hv32yxQamjxYQRuoBJiCoud+PQdfINf3D5VK9lcwN/o1A\nTrheSuFa+LbGL1EWlVWppfqEklgolAim8u8B9mKaQQKBgQDAj0+eIBr3fWcJljge\nDONH24J2+vSCC3chRTG9x2W7X/+x8wNUNjecDOhTRgTL1M7Ll1V2rMOzVpTv+JMk\n9p8uIHlvK1YjzZm3sNNbUemkFlYAInn7cPS4xXlvAML6vKUfOSjWqfFzSIdid+m0\nYe5rA7ZIfxmo5/w56u6FlidVeQKBgQC3NLeXf4kiKO/Yvgtovzjr19lVPGTpc0GV\no6lOPhaS+GW/bK9Adw2wizlCME1kfx9AQFizMaKne7U+uWU27e117mbOU3PRdq1a\nUKcfy/XgMC0/wyWtM13IXV4htRYx4aWDFC6U4cfD0pWbmuHDIjywJB5VojDYF4Yx\ng/qJMYMP6wKBgDCb/N1N/YC8h2ZEJaZwWm+pWiXu9ApgGpKrhQMDcwr6EPI7Bnwb\ns64RFBTxeAR8lDeQ3GI4+q4rDS4G8h5Co6xhRkZqCjS/ki5s1O4Yn4JsoQknquNu\ngFikgSMkbhQdyxE2vLhz7h/MD2EsJDMFBcq+BSYH79JTvbhhNhVC8msBAoGAfCeY\np22BhInTiMG5v6GfNIzRtua3yFEYSA1iRijjaXQ2l9RSq9BCkbq38fgD6rAPgJ5a\nvg1MGk5GlJxVUDVLcFlAiGCbo37WmdcAexbgqK5da9GW7dpamtdTXGp5ARLW9I6v\nxqt/kmBajNoYVwITuJaxi/zfNwIyKcoz9dd850MCgYBRFS5XEx5vzCjbVZLiPeum\npEVn9vz42lnhjarFKnhmmf6Ory3X3FxSOOLr5Fh4o5bURCy4PpGfctZMw0zzcjIk\nW+HuswzYU89NTAn9a7oL0Q30ygfucismTrTvBeZCgo9KRA442QTHu6rQLWXyp9ry\nOoMMpDbBw7BOeZKwR42xOg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "promerca-93966@appspot.gserviceaccount.com",
+  "client_id": "112616110794691805376",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/promerca-93966%40appspot.gserviceaccount.com"
+}
